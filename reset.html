@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="icons8-star-50.png" type="image/x-icon">
+    <link rel="icon" href="icons8-star-50.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
     <title>reset password</title>
   </head>
   <style>
     .cir2 {
       bottom: -50px;
-    }
+    } 
+    
   </style>
   <body>
     <div class="back">
@@ -20,12 +25,17 @@
 
     <form action="">
       <h3>Reset Password</h3>
-      <label for="Email"> Email</label>
-      <input type="email" id="Email" placeholder="Enter your email" />
+
+      <div class="input">
+        <label for="Email"> Email</label>
+        <input type="email" id="Email" placeholder="Enter your email" />
+        <i class="bx bx-envelope icon"></i>
+      </div>
+
 
       <button>Send Reset Link</button>
       <br /><br />
-      <div>Remembered your Password? <a href="index.html">Log In</a></div>
+      <div  style="text-align: center;">Remembered your Password? <a href="index.html">Log In</a></div>
     </form>
   </body>
 </html>
